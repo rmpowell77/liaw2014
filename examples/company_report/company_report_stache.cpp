@@ -67,7 +67,7 @@ int main(int argc, char* argv[])
 	company["YEAR FOUNDED"] = "1999";
 	company["YEARS"] = stache_model_vector { stache_model { { "DIVISIONS", stache_model_vector {
 		stache_model {
-			{ "Name", "R&D" },
+			{ "NAME", "R&D" },
 			{ "BUDGET", "1000000" },
 			{ "EMPLOYEES", stache_model_vector {
 				stache_model{ { "NAME", "JOE" }, { "EMPLOYEE ID", "1" }, { "SALARY", "10000" } },
